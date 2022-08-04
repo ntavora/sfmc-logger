@@ -38,7 +38,7 @@
         Variable.SetValue("@console" , value);
 </script>
 <script>
-  var data ='[SFMC Logger]: %%=v(@console)=%%'
+  var data =`[SFMC Logger]: %%=v(@console)=%%`
       console.log(data);
     </script>
 <script runat="server" language="JavaScript">
